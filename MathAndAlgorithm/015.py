@@ -1,5 +1,5 @@
 def GCD(A, B):
-    while 0 <= A and 0 <= B:
+    while 1 <= A and 1 <= B:
         if A > B:
             A = A % B
         else:
