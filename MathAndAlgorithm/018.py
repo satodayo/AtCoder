@@ -14,7 +14,7 @@ for i in range(N):
     elif A[i] == 300:
         three += 1
     elif A[i] == 400:
-        four = 0
+        four += 1
 R = (one * four) + (two * three)
 
 print(R)
